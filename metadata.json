@@ -1,0 +1,15 @@
+{
+  "name": "CanalTP/postfix",
+  "version": "0.1.0",
+  "author": "CanalTP",
+  "summary": "Puppet module to manage postfix",
+  "license": "Apache-2.0",
+  "source": "https://github.com/CanalTP/puppet-postfix",
+  "project_page": "https://github.com/CanalTP/puppet-postfix",
+  "issues_url": "https://github.com/CanalTP/puppet-postfix/issues",
+  "dependencies": [
+    {"name":"puppetlabs-stdlib","version_requirement":">= 1.0.0"}
+  ],
+  "data_provider": null
+}
+
