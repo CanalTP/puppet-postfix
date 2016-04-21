@@ -4,7 +4,8 @@ class postfix::config (
   $myhostname      = $postfix::config_myhostname,
   $myorigin        = $postfix::config_myorigin,
   $inet_interfaces = $postfix::config_inet_interfaces,
-  $is_noop   = $postfix::if_noop,
+  $relayhost       = $postfix::config_relayhost,
+  $is_noop         = $postfix::if_noop,
 ) {
 
   file { "${file_path}/${file_name}":

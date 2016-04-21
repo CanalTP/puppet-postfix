@@ -6,6 +6,7 @@ class postfix (
   $config_myhostname      = $::fqdn,
   $config_myorigin        = $::fqdn,
   $config_inet_interfaces = 'all',
+  $config_relayhost       = undef,
   $service_name           = 'postfix',
   $service_ensure         = running,
   $service_enable         = true,
