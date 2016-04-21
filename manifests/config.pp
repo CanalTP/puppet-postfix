@@ -1,6 +1,7 @@
 class postfix::config (
   $file_path       = $postfix::config_file_path,
   $file_name       = $postfix::config_file_name,
+  $mydestination   = $postfix::config_mydestination,
   $myhostname      = $postfix::config_myhostname,
   $myorigin        = $postfix::config_myorigin,
   $inet_interfaces = $postfix::config_inet_interfaces,
