@@ -168,7 +168,7 @@ inet_protocols = all
 # See also below, section "REJECTING MAIL FOR UNKNOWN LOCAL USERS".
 #
 <% if !@mydestination.empty? -%>
-mydestination <%= @mydestination.join(', ') %>
+mydestination = <%= @mydestination.join(', ') %>
 <% end -%>
 <% if @mydestination.empty? -%>
 mydestination = $myhostname, localhost.$mydomain, localhost
