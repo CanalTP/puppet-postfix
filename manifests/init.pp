@@ -4,8 +4,8 @@ class postfix (
   $config_file_path = '/etc/postfix',
   $config_file_name = 'main.cf',
   $service_name     = 'postfix',
-  $service_ensure   = 'running',
-  $service_enable   = 'true',
+  $service_ensure   = running,
+  $service_enable   = true,
   $is_noop          = $::clientnoop,
 ) {
 
